@@ -15,6 +15,8 @@
 		4A4C0D7021EEAFFB0087F25A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A4C0D6E21EEAFFB0087F25A /* LaunchScreen.storyboard */; };
 		4A4C0D7B21EEAFFB0087F25A /* ProjectCoreDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4C0D7A21EEAFFB0087F25A /* ProjectCoreDataTests.swift */; };
 		4A4C0D8621EEAFFB0087F25A /* ProjectCoreDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4C0D8521EEAFFB0087F25A /* ProjectCoreDataUITests.swift */; };
+		4A4C0D9421EEE4780087F25A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4C0D9321EEE4780087F25A /* SignUpViewController.swift */; };
+		4A4C0D9621EEE4950087F25A /* LoggedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4C0D9521EEE4950087F25A /* LoggedInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		4A4C0D8121EEAFFB0087F25A /* ProjectCoreDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectCoreDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A4C0D8521EEAFFB0087F25A /* ProjectCoreDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCoreDataUITests.swift; sourceTree = "<group>"; };
 		4A4C0D8721EEAFFB0087F25A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A4C0D9321EEE4780087F25A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		4A4C0D9521EEE4950087F25A /* LoggedInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				4A4C0D6E21EEAFFB0087F25A /* LaunchScreen.storyboard */,
 				4A4C0D7121EEAFFB0087F25A /* Info.plist */,
 				4A4C0D6921EEAFF90087F25A /* ProjectCoreData.xcdatamodeld */,
+				4A4C0D9321EEE4780087F25A /* SignUpViewController.swift */,
+				4A4C0D9521EEE4950087F25A /* LoggedInViewController.swift */,
 			);
 			path = ProjectCoreData;
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A4C0D6521EEAFF90087F25A /* ViewController.swift in Sources */,
+				4A4C0D9621EEE4950087F25A /* LoggedInViewController.swift in Sources */,
 				4A4C0D6B21EEAFF90087F25A /* ProjectCoreData.xcdatamodeld in Sources */,
+				4A4C0D9421EEE4780087F25A /* SignUpViewController.swift in Sources */,
 				4A4C0D6321EEAFF90087F25A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
